@@ -1,6 +1,9 @@
 import java.io.IOException;
 import java.util.Scanner;
 
+/* Вывести на экран соответствий между символами и их
+ численными обозначениями в памяти компьютера. */
+
 public class Task {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -14,7 +17,7 @@ public class Task {
             if(number == character) System.out.println(true);
             else                    System.out.println(false);
             scn.nextLine();
-            System.out.println("Do you want to suspend, input \"stop\"");
+            System.out.println("If you want to suspend input \"stop\"");
             terminate = scn.nextLine();
         }
     }

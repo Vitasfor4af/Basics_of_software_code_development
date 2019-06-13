@@ -1,9 +1,13 @@
 import java.util.Scanner;
 
+/* Для каждого натурального числа в промежутке от m до n
+ вывести все делители, кроме единицы и самого числа.
+m и n вводятся с клавиатуры. */
+
 public class Task {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Enter the boundaries of the gap (m,n)");
+        System.out.println("Enter the boundaries of the interval (m,n), correspondingly");
         int m = scn.nextInt();
         int n = scn.nextInt();
         for (;m < n; m++){

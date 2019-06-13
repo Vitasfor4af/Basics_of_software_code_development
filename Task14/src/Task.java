@@ -1,4 +1,5 @@
 
+/* Найти сумму квадратов первых ста чисел. */
 
 public class Task {
     public static void main(String[] args) {
@@ -9,7 +10,8 @@ public class Task {
         System.out.println("sum = " + result);
 
     }
-    public static int func(int x){
+    public static int func(int x)
+    {
         return x * x;
     }
 }

@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+/* Вычислить значения функции на отрезке [а,b] c шагом h */
+
 public class Task {
 
 
