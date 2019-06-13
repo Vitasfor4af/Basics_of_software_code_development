@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826b8079-09b8-47e6-8d29-f1bfd4b84e8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Task5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Task6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Test/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task1/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task1/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task11/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task11/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task12/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task12/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Task19/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task19/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/src/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task3/src/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task3/src/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task4/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task4/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task5/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task5/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task6/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task6/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task7/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task7/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task8/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task8/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task9/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task9/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task9/src/Task.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="399">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -81,9 +53,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="578" />
+    <option name="x" value="142" />
     <option name="y" value="27" />
-    <option name="width" value="788" />
+    <option name="width" value="1224" />
     <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -92,6 +64,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,13 +77,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Task13" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Algorithmization/Tasks/Task1" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RunDashboard">
@@ -152,9 +124,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="578" y="27" width="788" height="741" extended-state="4" />
+    <frame x="142" y="27" width="1224" height="741" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04043127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.025466893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -185,8 +157,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="399">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
