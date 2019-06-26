@@ -6,18 +6,14 @@ import java.util.Scanner;
 
 public class Task {
 
-
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Input the values of a, b and c, correspondingly");
-        float a = scn.nextFloat();
-        float b = scn.nextFloat();
-        float c = scn.nextFloat();
-        System.out.println("result = " + compute(a, b, c));
-    }
-
-    public static float compute(float a, float b, float c){
-        float result = ((a - 3) * b / 2) + c;
-    return result;
-    }
+	public static void main(String[] args) {
+		System.out.println("Input the values of a, b and c, correspondingly");
+		Scanner scanner = new Scanner(System.in);
+		float a = scanner.nextFloat();
+		float b = scanner.nextFloat();
+		float c = scanner.nextFloat();
+		scanner.close();
+		float result = ((a - 3) * b / 2) + c;
+		System.out.println("result = " + result);
+	}
 }

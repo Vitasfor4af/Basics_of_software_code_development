@@ -1,46 +1,28 @@
 package by.epam.loops.Task7;
 
 import java.util.Scanner;
-import static java.lang.Math.*;
 
-/* Даны два числа. Определить цифры, входящие в запись как первого так и второго числа. */
+/* Для каждого натурального числа в промежутке от m до n
+ вывести все делители, кроме единицы и самого числа.
+m и n вводятся с клавиатуры. */
 
 public class Task {
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Input the values for num1 and num2");
-       int num1 = abs(scn.nextInt());
-       int num2 = abs(scn.nextInt());
-        for(int num1Copy = num1,digit = num1Copy % 10; num1Copy != 0; num1Copy /= 10, digit = num1Copy % 10){
-            if(getDigitPresence(num2,digit) && (digitCount(num1,digit) == digitCount(num1Copy,digit))){
-                System.out.println(digit + "\t");
-            }
-        }
-    }
 
-    public static boolean getDigitPresence(int number,int digit)
-    {
-        boolean result = false;
-        while (number != 0){
-            if (digit == number % 10){
-                result = true;
-                break;
-            }
-            number /= 10;
-        }
-        return result;
-    }
+	public static void main(String[] args) {
+		System.out.println("Enter the boundaries of the interval (m,n), correspondingly");
+		Scanner scanner = new Scanner(System.in);
+		int m = scanner.nextInt();
+		int n = scanner.nextInt();
+		scanner.close();
+		for (; m < n; m++) {
+			System.out.print("Dividers for number " + m + ":");
+			for (int i = 2; i < m; i++) {
+				if (m % i == 0) {
+					System.out.print(i + "\t");
+				}
+			}
+			System.out.println();
+		}
 
-    public static int digitCount(int number, int digit){
-        int count = 0;
-        while (number != 0){
-            if (digit == number % 10){
-                count++;
-            }
-            number /= 10;
-        }
-
-        return count;
-    }
-
+	}
 }

@@ -1,27 +1,30 @@
 package by.epam.loops.Task5;
 
-import java.io.IOException;
 import java.util.Scanner;
+import static java.lang.Math.pow;
+import static java.lang.Math.abs;
 
-/* Вывести на экран соответствий между символами и их
- численными обозначениями в памяти компьютера. */
+/* Даны числовой ряд и некоторое число е.
+ Найти сумму тех членов ряда, модуль которых больше или равен
+заданному е. Общий член ряда имеет вид: */
 
 public class Task {
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        String terminate = "";
-        int number;
-        char character;
-        while(!(terminate.equals("stop"))){
-            System.out.println("Input code of symbol and symbol");
-            number = scn.nextInt();
-            character = scn.next().charAt(0);
-            if(number == character) System.out.println(true);
-            else                    System.out.println(false);
-            scn.nextLine();
-            System.out.println("If you want to suspend input \"stop\"");
-            terminate = scn.nextLine();
-        }
-    }
 
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Input the values of e = ");
+		float e = scanner.nextFloat();
+		System.out.print("Input the values of n = ");
+		float n = scanner.nextFloat();
+		scanner.close();
+		float a;
+		int sum = 0;
+		for (int i = 0; i <= n; i++) {
+			a = (float) (1 / pow(2, i) + 1 / pow(3, i));
+			if (abs(a) >= e) {
+				sum += a;
+			}
+		}
+		System.out.println("sum = " + sum);
+	}
 }

@@ -2,24 +2,32 @@ package by.epam.loops.Task6;
 
 import java.util.Scanner;
 
-/* Для каждого натурального числа в промежутке от m до n
- вывести все делители, кроме единицы и самого числа.
-m и n вводятся с клавиатуры. */
+/* Вывести на экран соответствий между символами и их
+ численными обозначениями в памяти компьютера. */
 
 public class Task {
-    public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        System.out.println("Enter the boundaries of the interval (m,n), correspondingly");
-        int m = scn.nextInt();
-        int n = scn.nextInt();
-        for (;m < n; m++){
-            System.out.print("Dividers for number " + m + ":");
-            for (int i = 2; i < m; i++){
-                if(m % i == 0) System.out.print(i + "\t");
-            }
-            System.out.println();
-        }
 
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String terminate = "";
+		int number;
+		char character;
+		while (!(terminate.equals("stop"))) {
+			System.out.println("Input code of symbol and symbol");
+			number = scanner.nextInt();
+			character = scanner.next().charAt(0);
+			if (number == character) {
+				System.out.println(true);
+			} else {
+				System.out.println(false);
+			}
+			scanner.nextLine();
+			System.out.println("If you want to suspend input \"stop\"");
+			terminate = scanner.nextLine();
+			if (terminate.equals("stop")) {
+				scanner.close();
+			}
+		}
+	}
 
-    }
 }
