@@ -1,3 +1,5 @@
+package by.epam.loops.Tast8;
+
 import java.math.BigInteger;
 
 /* Составить программу нахождения произведения квадратов первых двухсот чисел. */

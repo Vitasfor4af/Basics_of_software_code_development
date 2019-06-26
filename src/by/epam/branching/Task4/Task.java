@@ -1,3 +1,5 @@
+package by.epam.branching.Task4;
+
 import java.util.Scanner;
 
 /* Заданы размеры А, В прямоугольного отверстия и

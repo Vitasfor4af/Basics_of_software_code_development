@@ -1,3 +1,5 @@
+package by.epam.loops.Task5;
+
 import java.io.IOException;
 import java.util.Scanner;
 

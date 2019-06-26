@@ -1,4 +1,4 @@
-package by.epam.linePrograms.one;
+package by.epam.linePrograms.Task1;
 
 import java.util.Scanner;
 

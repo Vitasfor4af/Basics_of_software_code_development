@@ -1,3 +1,5 @@
+package by.epam.loops.Task2;
+
 import java.util.Scanner;
 
 /* Вычислить значения функции на отрезке [а,b] c шагом h */

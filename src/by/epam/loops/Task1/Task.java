@@ -1,3 +1,5 @@
+package by.epam.loops.Task1;
+
 import java.util.Scanner;
 
 /* Напишите программу,

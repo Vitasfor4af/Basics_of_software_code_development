@@ -1,3 +1,5 @@
+package by.epam.loops.Task6;
+
 import java.util.Scanner;
 
 /* Для каждого натурального числа в промежутке от m до n

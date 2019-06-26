@@ -1,3 +1,5 @@
+package by.epam.linePrograms.Task6;
+
 import java.util.Scanner;
 
 /* Для данной области составить линейную программу,

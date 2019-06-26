@@ -1,3 +1,5 @@
+package by.epam.linePrograms.Task5;
+
 import java.util.Scanner;
 
 /* Дано натуральное число Т,

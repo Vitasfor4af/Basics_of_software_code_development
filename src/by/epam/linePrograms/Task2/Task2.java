@@ -1,4 +1,4 @@
-package by.epam.linePrograms.task2;
+package by.epam.linePrograms.Task2;
 
 import static java.lang.Math.*;
 

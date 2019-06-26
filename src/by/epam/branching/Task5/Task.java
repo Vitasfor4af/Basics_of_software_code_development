@@ -1,3 +1,5 @@
+package by.epam.branching.Task5;
+
 import java.util.Scanner;
 import static java.lang.Math.*;
 

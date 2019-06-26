@@ -1,3 +1,5 @@
+package by.epam.loops.Task4;
+
 import java.util.Scanner;
 import static java.lang.Math.*;
 

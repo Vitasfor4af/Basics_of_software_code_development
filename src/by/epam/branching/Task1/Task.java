@@ -1,3 +1,5 @@
+package by.epam.branching.Task1;
+
 import java.util.Scanner;
 
 /* Даны два угла треугольника (в градусах).
