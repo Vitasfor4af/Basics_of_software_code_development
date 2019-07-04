@@ -6,7 +6,6 @@ import java.util.Scanner;
  численными обозначениями в памяти компьютера. */
 
 public class Task {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String terminate = "";

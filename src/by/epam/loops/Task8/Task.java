@@ -1,7 +1,7 @@
 package by.epam.loops.Task8;
 
 import java.util.Scanner;
-import static java.lang.Math.*;
+import static java.lang.Math.abs;
 
 /* Даны два числа. Определить цифры, входящие в запись как первого так и второго числа. */
 
@@ -13,34 +13,40 @@ public class Task {
 		int num2 = abs(scanner.nextInt());
 		scanner.close();
 		for (int num1Copy = num1, digit = num1Copy % 10; num1Copy != 0; num1Copy /= 10, digit = num1Copy % 10) {
-			if (getDigitPresence(num2, digit) && (digitCount(num1, digit) == digitCount(num1Copy, digit))) {
+			boolean isPresence = false;
+			int presenceNumberCopy = num2;
+
+			while (presenceNumberCopy != 0) {
+				if (digit == presenceNumberCopy % 10) {
+					isPresence = true;
+					break;
+				}
+				presenceNumberCopy /= 10;
+			}
+
+			int firstNumberDigitCounter = 0;
+			int digitCountFirstNumberCopy = num1;
+
+			while (digitCountFirstNumberCopy != 0) {
+				if (digit == digitCountFirstNumberCopy % 10) {
+					firstNumberDigitCounter++;
+				}
+				digitCountFirstNumberCopy /= 10;
+			}
+
+			int secondNumberDigitCounter = 0;
+			int digitCountSecondNumberCopy = num1Copy;
+
+			while (digitCountSecondNumberCopy != 0) {
+				if (digit == digitCountSecondNumberCopy % 10) {
+					secondNumberDigitCounter++;
+				}
+				digitCountSecondNumberCopy /= 10;
+			}
+
+			if (isPresence && (firstNumberDigitCounter == secondNumberDigitCounter)) {
 				System.out.println(digit + "\t");
 			}
 		}
 	}
-
-	public static boolean getDigitPresence(int number, int digit) {
-		boolean result = false;
-		while (number != 0) {
-			if (digit == number % 10) {
-				result = true;
-				break;
-			}
-			number /= 10;
-		}
-		return result;
-	}
-
-	public static int digitCount(int number, int digit) {
-		int count = 0;
-		while (number != 0) {
-			if (digit == number % 10) {
-				count++;
-			}
-			number /= 10;
-		}
-
-		return count;
-	}
-
 }

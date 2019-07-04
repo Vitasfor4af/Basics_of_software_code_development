@@ -6,7 +6,6 @@ import java.util.Scanner;
  Определить, будут ли они расположены на одной прямой. */
 
 public class Task {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Input the coordinate of x1 = ");

@@ -7,7 +7,6 @@ import java.util.Scanner;
 принадлежит закрашенной области, и false — в противном случае */
 
 public class Task {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Input the coordinate of x = ");

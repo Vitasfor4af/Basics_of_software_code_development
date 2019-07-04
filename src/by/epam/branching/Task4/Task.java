@@ -7,7 +7,6 @@ import java.util.Scanner;
   Определить, пройдет ли кирпич через отверстие. */
 
 public class Task {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter the dimension of the rectangular hole A = ");

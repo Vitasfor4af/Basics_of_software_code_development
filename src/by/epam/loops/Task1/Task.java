@@ -8,7 +8,6 @@ import java.util.Scanner;
 все числа от 1 до введенного пользователем числа. */
 
 public class Task {
-	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter a positive integer = ");

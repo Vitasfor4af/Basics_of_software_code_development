@@ -7,7 +7,6 @@ import java.util.Scanner;
 m и n вводятся с клавиатуры. */
 
 public class Task {
-
 	public static void main(String[] args) {
 		System.out.println("Enter the boundaries of the interval (m,n), correspondingly");
 		Scanner scanner = new Scanner(System.in);

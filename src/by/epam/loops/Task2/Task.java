@@ -5,7 +5,6 @@ import java.util.Scanner;
 /* Вычислить значения функции на отрезке [а,b] c шагом h */
 // -1	3	5	7	9
 public class Task {
-
 	public static void main(String[] args) {
 		System.out.println("Input the values of a, b and h, correspondingly");
 		Scanner scanner = new Scanner(System.in);

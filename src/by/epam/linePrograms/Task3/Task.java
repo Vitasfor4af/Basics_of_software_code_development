@@ -9,7 +9,6 @@ import static java.lang.Math.tan;
  (все переменные принимают действительные значения) */
 
 public class Task {
-
 	public static void main(String[] args) {
 		System.out.println("Input the values of x and y, correspondingly");
 		Scanner scanner = new Scanner(System.in);

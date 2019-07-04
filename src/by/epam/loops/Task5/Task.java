@@ -9,7 +9,6 @@ import static java.lang.Math.abs;
 заданному е. Общий член ряда имеет вид: */
 
 public class Task {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Input the values of e = ");

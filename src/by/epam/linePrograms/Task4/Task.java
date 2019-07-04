@@ -8,7 +8,6 @@ import static java.lang.Math.round;
   Поменять местами дробную и целую части числа и вывести полученное значение числа. */
 
 public class Task {
-
 	public static void main(String[] args) {
 		System.out.println("Input the number in nnn.ddd format");
 		Scanner scanner = new Scanner(System.in);

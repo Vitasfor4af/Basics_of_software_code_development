@@ -7,7 +7,6 @@ import java.util.Scanner;
 он прямоугольным. */
 
 public class Task {
-
 	public static void main(String[] args) {
 		System.out.println("Enter the two corners(A,B) of the triangle, correspondingly:");
 		Scanner scanner = new Scanner(System.in);

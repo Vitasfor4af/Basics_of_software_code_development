@@ -6,7 +6,6 @@ import static java.lang.Math.pow;
 /* Вычислить значение функции */
 
 public class Task {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Input the value of x = ");

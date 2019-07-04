@@ -7,7 +7,6 @@ import static java.lang.Math.min;
 /* Найти max{min(a, b), min(c, d)}. */
 
 public class Task {
-
 	public static void main(String[] args) {
 		System.out.println("Input the value of a,b,c,d, correspondingly");
 		Scanner scanner = new Scanner(System.in);
