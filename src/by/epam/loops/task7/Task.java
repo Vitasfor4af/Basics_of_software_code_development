@@ -9,11 +9,13 @@ m и n вводятся с клавиатуры. */
 public class Task {
 
 	public static void main(String[] args) {
-		System.out.println("Enter the boundaries of the interval (m,n), correspondingly");
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter the boundary of the interval m = ");
 		int m = scanner.nextInt();
+		System.out.print("Enter the boundary of the interval n = ");
 		int n = scanner.nextInt();
 		scanner.close();
+
 		for (; m < n; m++) {
 			System.out.print("Dividers for number " + m + ":");
 			for (int i = 2; i < m; i++) {

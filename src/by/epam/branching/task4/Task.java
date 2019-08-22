@@ -21,10 +21,12 @@ public class Task {
 		System.out.print("Enter the dimension of the brick z(height) = ");
 		float z = scanner.nextFloat();
 		scanner.close();
+
 		if ((y < b && z < a) || (x < b && z < a) || (z < b && y < a) || (x < b && y < a) || (z < b && x < a)
-				|| (y < b && x < a))
+				|| (y < b && x < a)) {
 			System.out.println(true);
-		else
+		} else {
 			System.out.println(false);
+		}
 	}
 }

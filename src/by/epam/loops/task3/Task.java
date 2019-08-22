@@ -9,6 +9,7 @@ public class Task {
 		for (int i = 0; i <= 100; i++) {
 			result += (i * i);
 		}
+
 		System.out.println("sum = " + result);
 	}
 }

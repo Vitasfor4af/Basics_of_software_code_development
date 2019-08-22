@@ -10,15 +10,17 @@ import static java.lang.Math.pow;
 public class Task {
 
 	public static void main(String[] args) {
-		System.out.println("Input the values of a, b and c, correspondingly");
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Input the value of a = ");
 		double a = scanner.nextDouble();
+		System.out.print("Input the value of b = ");
 		double b = scanner.nextDouble();
+		System.out.print("Input the value of c = ");
 		double c = scanner.nextDouble();
 		scanner.close();
-		double result = 0;
+
 		double squareRoot = sqrt(pow(b, 2) + 4 * a * c);
-		result = ((b + sqrt(pow(b, 2) + 4 * a * c)) / (2 * a)) - pow(a, 3) * c + pow(b, -2);
+		double result = ((b + squareRoot) / (2 * a)) - pow(a, 3) * c + pow(b, -2);
 		System.out.println("result = " + result);
 	}
 }

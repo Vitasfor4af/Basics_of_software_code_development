@@ -12,6 +12,7 @@ public class Task {
 				.add(BigInteger.valueOf(1))) {
 			result = result.multiply(i.multiply(i));
 		}
+
 		System.out.println("mul = " + result);
 	}
 }

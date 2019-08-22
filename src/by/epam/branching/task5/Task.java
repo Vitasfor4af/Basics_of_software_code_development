@@ -12,6 +12,7 @@ public class Task {
 		System.out.print("Input the value of x = ");
 		double x = scanner.nextDouble();
 		scanner.close();
+		
 		double result = 0;
 		if (x <= 3) {
 			result = pow(x, 2) - 3 * x + 9;

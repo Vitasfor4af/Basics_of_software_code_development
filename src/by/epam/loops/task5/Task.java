@@ -17,6 +17,7 @@ public class Task {
 		System.out.print("Input the values of n = ");
 		float n = scanner.nextFloat();
 		scanner.close();
+
 		float a;
 		int sum = 0;
 		for (int i = 0; i <= n; i++) {

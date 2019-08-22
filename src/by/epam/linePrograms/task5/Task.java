@@ -14,6 +14,7 @@ public class Task {
 		System.out.print("Input the value of T = ");
 		int T = scanner.nextInt();
 		scanner.close();
+		
 		int hours = T / 3600;
 		int minutes = (T - hours * 3600) / 60;
 		int seconds = T - (hours * 3600 + minutes * 60);

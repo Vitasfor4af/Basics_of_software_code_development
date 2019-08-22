@@ -8,11 +8,13 @@ import static java.lang.Math.abs;
 public class Task {
 
 	public static void main(String[] args) {
-		System.out.println("Input the values for num1 and num2");
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Input the value of num1 = ");
 		int num1 = abs(scanner.nextInt());
+		System.out.print("Input the value of num2 = ");
 		int num2 = abs(scanner.nextInt());
 		scanner.close();
+
 		for (int num1Copy = num1, digit = num1Copy % 10; num1Copy != 0; num1Copy /= 10, digit = num1Copy % 10) {
 			boolean isPresence = false;
 			int presenceNumberCopy = num2;

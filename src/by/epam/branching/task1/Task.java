@@ -9,11 +9,13 @@ import java.util.Scanner;
 public class Task {
 
 	public static void main(String[] args) {
-		System.out.println("Enter the two corners(A,B) of the triangle, correspondingly:");
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Input the corner of the triangle A = ");
 		int cornerA = scanner.nextInt();
+		System.out.print("Input the corner of the triangle B = ");
 		int cornerB = scanner.nextInt();
 		scanner.close();
+
 		if (cornerA + cornerB < 180) {
 			System.out.println("Exists");
 			if (cornerA + cornerB == 90 || cornerA == 90 || cornerB == 90) {

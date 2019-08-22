@@ -7,12 +7,15 @@ import java.util.Scanner;
 public class Task {
 
 	public static void main(String[] args) {
-		System.out.println("Input the values of a, b and c, correspondingly");
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Input the value of a = ");
 		double a = scanner.nextDouble();
+		System.out.print("Input the value of b = ");
 		double b = scanner.nextDouble();
+		System.out.print("Input the value of c = ");
 		double c = scanner.nextDouble();
 		scanner.close();
+		
 		double result = ((a - 3) * b / 2) + c;
 		System.out.println("result = " + result);
 	}

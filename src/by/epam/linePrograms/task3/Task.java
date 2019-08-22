@@ -11,13 +11,14 @@ import static java.lang.Math.tan;
 public class Task {
 
 	public static void main(String[] args) {
-		System.out.println("Input the values of x and y, correspondingly");
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Input the value of x = ");
 		double x = scanner.nextDouble();
+		System.out.print("Input the value of y = ");
 		double y = scanner.nextDouble();
 		scanner.close();
-		double z = 0;
-		z = ((sin(x) + cos(y)) / (cos(x) - sin(y))) * tan(x * y);
+
+		double z = ((sin(x) + cos(y)) / (cos(x) - sin(y))) * tan(x * y);
 		System.out.println("result = " + z);
 	}
 }

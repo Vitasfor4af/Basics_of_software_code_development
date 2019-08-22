@@ -14,6 +14,7 @@ public class Task {
 		System.out.print("Enter a positive integer = ");
 		int number = scanner.nextInt();
 		scanner.close();
+
 		int result = 0;
 		for (int i = 1; i < number; i++) {
 			result += i;

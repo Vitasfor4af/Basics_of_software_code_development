@@ -7,12 +7,15 @@ import java.util.Scanner;
 public class Task {
 
 	public static void main(String[] args) {
-		System.out.println("Input the values of a, b and h, correspondingly");
 		Scanner scanner = new Scanner(System.in);
+		System.out.print("Input the value of a = ");
 		int a = scanner.nextInt();
+		System.out.print("Input the value of b = ");
 		int b = scanner.nextInt();
+		System.out.print("Input the value of h = ");
 		int h = scanner.nextInt();
 		scanner.close();
+
 		int x;
 		int result = 0;
 		for (; a < b; a += h) {
@@ -22,7 +25,7 @@ public class Task {
 			} else if (x <= 2) {
 				result = -x;
 			}
-			System.out.print(result + "\t");
+			System.out.print(result + " ");
 		}
 	}
 }

@@ -22,9 +22,11 @@ public class Task {
 		System.out.print("Input the coordinate of y3 = ");
 		int y3 = scanner.nextInt();
 		scanner.close();
-		if ((x1 - x3) * (y2 - y3) - (x2 - x3) * (y1 - y3) == 0)
+
+		if ((x1 - x3) * (y2 - y3) - (x2 - x3) * (y1 - y3) == 0) {
 			System.out.println("The points lie on one straight line.");
-		else
+		} else {
 			System.out.println("The points do not lie on one straight line.");
+		}
 	}
 }
